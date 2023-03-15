@@ -29,13 +29,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Главная</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="items.html">Pricing</a>
+                            <a class="nav-link" href="items.html">Каталог</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="login.html"><img src="src/icons/login.png" alt=""></a>
+                            <a class="nav-link active" href="login.html">Войти<img src="src/icons/login.png" alt=""></a>
                         </li>
                     </ul>
                 </div>
@@ -46,25 +46,49 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10 card-container">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg-10 col-md-10 card-container">
                     <div class="login-card">
                         <p>Вход в личный кабинет</p>
-                        <input type="text" placeholder="Введите ваш логин">
-                        <input type="text" placeholder="Введите пароль">
+                        <div class="login">
+                            <label for="">Логин</label>
+                            <input type="text" class="info-login" placeholder="Введите номер телефона/почту">
+                        </div>
+                        <div class="password">
+                            <label for="">Пароль</label>
+                            <input type="text" class="info-login" style="margin-bottom: 30px;" placeholder="Введите пароль">
+                        </div>
+                        <div class="help-login">
+                            <label for=""><input type="checkbox" class="checkbox">Запомнить меня</label>
+                            <a href="" class="forgot-pass">Забыли пароль?</a>
+                        </div>
+                        <a href="#" class="btn btn-primary">Войти</a>
                     </div>
                 </div>
-                <div class="col-lg-1"></div>
+                <div class="col-lg-1 col-md-1"></div>
             </div>
         </div>
     </section>
 
-
+    <footer>
+        <div class="container-fluid">
+            <hr>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 footer-text text-center">
+                    <p><a href="https://vk.com/ssssegaaaa" target="_blank">Contacts</a></p>
+                    <p><a href="https://github.com/ssssega" target="_blank">Job</a></p>
+                    <p><a href="#">Our Team</a></p>
+                </div>
+                <div class="col-lg-12 col-md-12 footer-text text-center" style="font-size: 12px;">
+                    <p>All Rights Reserved 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous">
-    </script>
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

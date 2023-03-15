@@ -122,18 +122,50 @@ footer.container-fluid
     padding: 30px
     margin: 100px 0 100px 0
     border-radius: 3%
-    background: #badef7
+    background: #c9e6fb
+    box-shadow: 4px 4px 10px 1px rgba(126, 126, 126, 0.2)
+.login
+    display: flex
+    flex-direction: column
+.password
+    display: flex
+    flex-direction: column
 .login-card p 
-    margin-bottom: 40px
+    margin-bottom: 20px
     font-size: 20px
-.login-card input
+    font-weight: 500
+.login-card .info-login
     border: none
-    margin-bottom: 60px
+    border-bottom: 1px solid black
+    background-color: #c9e6fb
+    color: rgba(90, 89, 89, 0.5)
+    margin-bottom: 50px
     width: 300px
     height: 50px
     font-family: Montserrat
-    &:last-child
-        margin-bottom: 0
+    &:hover
+        box-shadow: 5px 5px 4px 1px rgba(126, 126, 126, 0.2)
+    &::-webkit-input-placeholder
+        color: rgba(90, 89, 89, 0.5)
+        opacity: 0.8
+.help-login
+    display: flex
+    width: 300px
+    height: 50px
+    justify-content: space-between
+    margin-bottom: 20px
+.help-login
+    &.forgot-pass, &.checkbox
+    font-size: 14px
+.help-login .forgot-pass
+    color: rgba(21, 34, 97, 0.8)
+.login-card .btn
+    width: 120px
+    box-shadow: 2px 2px 2px 1px rgba(126, 126, 126, 0.2)
+    &:hover
+        background-color: rgba(3, 46, 79, 0.7)
+    
+    
 
  
 
